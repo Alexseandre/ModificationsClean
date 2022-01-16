@@ -639,7 +639,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -672,6 +672,28 @@ p {
     max-width: 600px;
     margin: auto auto auto auto;
 }
+input
+{
+    display: flex;
+    color: black;
+    background-color: white;
+}
+address
+{
+    background-color:#f1b89e;
+    height: 100%;
+    padding: 50px;
+}
+address > a 
+{
+    font-size: 25px;
+    border-bottom: solid 2px white;
+}
+textarea
+{
+    color: black;
+    background-color: white;
+}
 
 .h1 {
     font-size: 20px;
@@ -688,8 +710,16 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+.social a 
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 192, 192);
 }
 
 h2 {
@@ -724,8 +754,14 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    font-size: 15px;
 }
+figcaption, cite 
+{
+    color: black;
+}
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -768,11 +804,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    filter: brightness(1.4);
     color: #FFFFFF!important;
 }
 
